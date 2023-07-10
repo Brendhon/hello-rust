@@ -2,12 +2,6 @@
 
 Bem-vindo ao projeto introdutório em Rust! Este projeto foi desenvolvido como parte do curso da Alura, com o objetivo de fornecer uma introdução prática à linguagem de programação Rust.
 
-## Descrição do Projeto
-
-Neste projeto, você terá a oportunidade de construir uma aplicação simples em Rust que simula um sistema de gerenciamento de tarefas. O sistema permite que o usuário adicione tarefas, marque tarefas como concluídas e liste todas as tarefas existentes.
-
-Durante o desenvolvimento, você aprenderá conceitos fundamentais da linguagem Rust, como tipos de dados, estruturas de controle, funções, pacotes, módulos e gestão de dependências com o Cargo.
-
 ## Pré-requisitos
 
 Antes de começar, certifique-se de ter o Rust e o Cargo instalados em sua máquina. Caso ainda não tenha, você pode seguir as instruções em [https://www.rust-lang.org/learn/get-started](https://www.rust-lang.org/learn/get-started) para instalar o Rust.
@@ -24,6 +18,11 @@ O projeto possui a seguinte estrutura de diretórios e arquivos:
 
 - `src/`: Diretório contendo o código-fonte da aplicação.
   - `main.rs`: Arquivo principal que contém o código-fonte da aplicação.
+  - `types.rs`: Arquivo contendo uma demostração de tipos de dados em Rust.
+  - `constants.rs`: Arquivo contendo uma demostração de constantes em Rust.
+  - `mutable.rs`: Arquivo contendo uma demostração de mutabilidade em Rust.
+  - `memonry_size.rs`: Arquivo contendo uma demostração de tamanho de memória em Rust para tipos de dados primitivos.
+  - `statics.rs`: Arquivo contendo uma demostração de variáveis estáticas em Rust.
 - `Cargo.toml`: Arquivo de configuração do Cargo, responsável por gerenciar as dependências e configurações do projeto.
 
 ## Recursos Adicionais
