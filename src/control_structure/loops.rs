@@ -48,5 +48,20 @@ pub mod loops {
                 multiplication_table * counter
             );
         }
+
+        // Break line
+        println!();
+
+        // For loop
+        println!("----- For loop -----");
+        for i in 0..=LIMIT { // 0..=LIMIT is a range from 0 to LIMIT (inclusive)
+            // Print result
+            println!(
+                "{} x {} = {}",
+                multiplication_table,
+                i,
+                multiplication_table * i
+            );
+        }
     }
 }
