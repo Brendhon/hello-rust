@@ -38,13 +38,3 @@ Além do código-fonte fornecido, você também encontrará outros recursos úte
 
 - `README.md`: Este arquivo que você está lendo atualmente, fornecendo uma visão geral do projeto.
 - `LICENSE`: Arquivo de licença que determina os termos de uso do projeto.
-
-## Contribuindo
-
-Se você tiver sugestões, melhorias ou correções, fique à vontade para abrir uma nova issue ou enviar um pull request para este repositório. Sua contribuição é muito bem-vinda!
-
-## Considerações Finais
-
-Esperamos que este projeto introdutório em Rust tenha proporcionado uma experiência de aprendizado valiosa. Divirta-se explorando a linguagem Rust e continue aprimorando suas habilidades de programação com esta poderosa linguagem!
-
-Para mais informações sobre Rust, você pode visitar o site oficial em [https://www.rust-lang.org/](https://www.rust-lang.org/).
