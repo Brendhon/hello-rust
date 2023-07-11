@@ -12,6 +12,7 @@ use crate::syntaxes::functions::functions::sum;
 
 // Control structure
 use crate::control_structure::if_else::if_else::if_else;
+use crate::control_structure::loops::loops::loops;
 
 fn main() {
     // ----- Syntaxes -----
@@ -64,4 +65,11 @@ fn main() {
     // ----- If else -----
     println!("----- If else -----");
     if_else(17);
+
+    // Break line
+    println!();
+
+    // ----- Loops -----
+    println!("----- Loops -----");
+    loops(5);
 }
