@@ -18,11 +18,18 @@ O projeto possui a seguinte estrutura de diretórios e arquivos:
 
 - `src/`: Diretório contendo o código-fonte da aplicação.
   - `main.rs`: Arquivo principal que contém o código-fonte da aplicação.
-  - `types.rs`: Arquivo contendo uma demostração de tipos de dados em Rust.
-  - `constants.rs`: Arquivo contendo uma demostração de constantes em Rust.
-  - `mutable.rs`: Arquivo contendo uma demostração de mutabilidade em Rust.
-  - `memonry_size.rs`: Arquivo contendo uma demostração de tamanho de memória em Rust para tipos de dados primitivos.
-  - `statics.rs`: Arquivo contendo uma demostração de variáveis estáticas em Rust.
+  - `syntaxes/`: Diretório contento arquivos de demostrações relacionadas a sintaxes
+    - `main.rs`: Arquivo principal que contém o código-fonte da aplicação.
+    - `types.rs`: Arquivo contendo uma demostração de tipos de dados em Rust.
+    - `constants.rs`: Arquivo contendo uma demostração de constantes em Rust.
+    - `mutable.rs`: Arquivo contendo uma demostração de mutabilidade em Rust.
+    - `memonry_size.rs`: Arquivo contendo uma demostração de tamanho de memória em Rust para tipos de dados primitivos.
+    - `statics.rs`: Arquivo contendo uma demostração de variáveis estáticas em Rust.
+    - `functions.rs`: Arquivo contendo uma demostração de funções em Rust.
+  - `control_structure/`: Diretório contento arquivos de demostrações relacionadas a estruturas de controle
+    - `if_else.rs`: Arquivo contendo uma demostração de estruturas de controle if/else em Rust.
+    - `loops.rs`: Arquivo contendo uma demostração de estruturas de controle de repetição em Rust.
+    - `match.rs`: Arquivo contendo uma demostração de estruturas de controle match em Rust.
 - `Cargo.toml`: Arquivo de configuração do Cargo, responsável por gerenciar as dependências e configurações do projeto.
 
 ## Recursos Adicionais

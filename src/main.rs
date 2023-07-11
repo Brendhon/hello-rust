@@ -1,20 +1,21 @@
-// Modules
-mod constants;
-mod memory_size;
-mod mutable;
-mod statics;
-mod types;
-mod functions;
+// Modules to import
+mod syntaxes;
+mod control_structure;
 
-// Import functions
-use crate::constants::constants::constants;
-use crate::memory_size::memory_size::memory_size;
-use crate::mutable::mutable::mutable;
-use crate::statics::statics::statics;
-use crate::types::types::types;
-use crate::functions::functions::sum;
+// Syntaxes
+use crate::syntaxes::constants::constants::constants;
+use crate::syntaxes::memory_size::memory_size::memory_size;
+use crate::syntaxes::mutable::mutable::mutable;
+use crate::syntaxes::statics::statics::statics;
+use crate::syntaxes::types::types::types;
+use crate::syntaxes::functions::functions::sum;
+
+// Control structure
+use crate::control_structure::if_else::if_else::if_else;
 
 fn main() {
+    // ----- Syntaxes -----
+
     // ----- Types -----
     println!("----- Types -----");
     types();
@@ -54,4 +55,13 @@ fn main() {
     println!("----- Functions -----");
     // Print result
     println!("Sum: {}", sum(1, 3));
+
+    // Break line
+    println!();
+
+    // ----- Control structure -----
+
+    // ----- If else -----
+    println!("----- If else -----");
+    if_else(17);
 }
