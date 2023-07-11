@@ -29,7 +29,7 @@ O projeto possui a seguinte estrutura de diretórios e arquivos:
   - `control_structure/`: Diretório contento arquivos de demostrações relacionadas a estruturas de controle
     - `if_else.rs`: Arquivo contendo uma demostração de estruturas de controle if/else em Rust.
     - `loops.rs`: Arquivo contendo uma demostração de estruturas de controle de repetição em Rust.
-    - `match.rs`: Arquivo contendo uma demostração de estruturas de controle match em Rust.
+    - `matchs.rs`: Arquivo contendo uma demostração de estruturas de controle match em Rust.
 - `Cargo.toml`: Arquivo de configuração do Cargo, responsável por gerenciar as dependências e configurações do projeto.
 
 ## Recursos Adicionais

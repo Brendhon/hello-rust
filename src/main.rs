@@ -13,6 +13,7 @@ use crate::syntaxes::functions::functions::sum;
 // Control structure
 use crate::control_structure::if_else::if_else::if_else;
 use crate::control_structure::loops::loops::loops;
+use crate::control_structure::matchs::matchs::matchs;
 
 fn main() {
     // ----- Syntaxes -----
@@ -72,4 +73,12 @@ fn main() {
     // ----- Loops -----
     println!("----- Loops -----");
     loops(5);
+
+    // Break line
+    println!();
+
+    // ----- Match -----
+    println!("----- Match -----");
+    matchs("TypeScript");
+
 }
