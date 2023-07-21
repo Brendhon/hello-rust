@@ -20,6 +20,7 @@ use crate::control_structure::matchs::matchs::matchs;
 use crate::special::ownerships::ownerships::ownerships;
 use crate::special::references::references::references;
 use crate::special::pattern_matching::pattern_matching::pattern_matching;
+use crate::special::errors::errors::errors;
 
 fn main() {
     // ----- Syntaxes -----
@@ -107,4 +108,11 @@ fn main() {
     // ----- Pattern matching -----
     println!("----- Pattern matching -----");
     pattern_matching();
+
+    // Break line
+    println!();
+
+    // ----- Erros -----
+    println!("----- Erros -----");
+    errors();
 }
