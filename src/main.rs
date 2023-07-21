@@ -1,6 +1,7 @@
 // Modules to import
 mod syntaxes;
 mod control_structure;
+mod special;
 
 // Syntaxes
 use crate::syntaxes::constants::constants::constants;
@@ -14,6 +15,9 @@ use crate::syntaxes::functions::functions::sum;
 use crate::control_structure::if_else::if_else::if_else;
 use crate::control_structure::loops::loops::loops;
 use crate::control_structure::matchs::matchs::matchs;
+
+// Special
+use crate::special::ownerships::ownerships::ownerships;
 
 fn main() {
     // ----- Syntaxes -----
@@ -81,4 +85,10 @@ fn main() {
     println!("----- Match -----");
     matchs("TypeScript");
 
+    // Break line
+    println!();
+
+    // ----- Special -----
+    println!("----- Special -----");
+    ownerships();
 }
