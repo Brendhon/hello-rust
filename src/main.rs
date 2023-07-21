@@ -19,6 +19,7 @@ use crate::control_structure::matchs::matchs::matchs;
 // Special
 use crate::special::ownerships::ownerships::ownerships;
 use crate::special::references::references::references;
+use crate::special::pattern_matching::pattern_matching::pattern_matching;
 
 fn main() {
     // ----- Syntaxes -----
@@ -99,4 +100,11 @@ fn main() {
     // ----- References -----
     println!("----- References -----");
     references();
+
+    // Break line
+    println!();
+
+    // ----- Pattern matching -----
+    println!("----- Pattern matching -----");
+    pattern_matching();
 }
