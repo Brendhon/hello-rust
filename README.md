@@ -38,6 +38,7 @@ O projeto possui a seguinte estrutura de diretórios e arquivos:
     - `matchs.rs`: Arquivo contendo uma demostração de estruturas de controle match em Rust.
   - `special/`: Diretório contendo os arquivos de demostração de caracteristicas especificas do Rust.
     - `ownerships.rs`: Arquivo contendo uma demostração da caracteristica que mostra que o Rust é uma linguagem de programação com gerenciamento de memória de forma automática, diferente de linguagens como C e C++.
+    - `references.rs`: Arquivo contendo uma demostração de referências em Rust.
 - `Cargo.toml`: Arquivo de configuração do Cargo, responsável por gerenciar as dependências e configurações do projeto.
 
 ---

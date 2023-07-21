@@ -10,7 +10,7 @@ pub mod ownerships {
     // Push a string into the String
     s.push_str(", world!");
 
-    // Pass the ownership of the String to the function
+    // When pass by parameter, the ownership of the String is passed to the function
     // The function will be the owner of the String
     show(s);
 
